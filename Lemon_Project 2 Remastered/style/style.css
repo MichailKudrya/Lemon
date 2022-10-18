@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #F5F5F5;
+    padding-top: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, p {
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    gap: 93px;
+}
+
+.container {
+    max-width: 1512px;
+    width: 100%;
+    margin-bottom: 150px;
+    margin-inline: auto;
+    padding: 80px;
+    background: #fff;
+}
+
+.nav {
+    padding-top: 60px;
+    margin-bottom: 128px;
+}
+
+.ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.li {
+    list-style: none;
+}
+
+.link {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.info {
+    
+}
+
+.title-name {
+    display: flex;
+    gap: 10px;
+}
+
+.title,
+h1 {
+    font-weight: 700;
+    font-size: 87px;
+    line-height: 90px;
+    color: #000000;
+
+}
+
+.description {
+    margin-top: 40px;
+    margin-bottom: 108px;
+    max-width: 762px;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 45px;
+    color: #6B6868;
+}
+
+.links {
+    display: flex;
+    gap: 38px;
+}
+
+.link-primary {
+    display: inline-block;
+    border: 2px solid #000000;
+    padding: 30px 50px;
+    background: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.link-secondary {
+    display: inline-block;
+    border: 2px solid #000000;
+    padding: 30px 50px;
+    background: #000000;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.photo {
+    max-width: 500px;
+}
+.photo img {
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    border-radius: 0 0 0 250px;
+    border: 7px solid #000;
+    border-right: none;
+}
+.image{
+    position: relative;
+}
+
+.cover{
+width: 100%;
+height: calc(100% - 43px);
+position: absolute;
+right: -7px;
+top: -12px;
+background: #000;
+border-radius: 0 0 0 250px;
+}
